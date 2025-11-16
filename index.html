@@ -1,287 +1,187 @@
 ﻿<!DOCTYPE html>
-<html lang="zh">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
-    <title>听松阁</title>
-    <meta name="description" content="95后青年，后端开发者，略懂前端, 学生，实习，缺乏社会的毒打">
-    <meta name="keywords" content="Java,Spring,个人博客，微信小程序，博客">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="static/css/index.css">
-    <link rel="stylesheet" href="./static/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./static/css/jquery.fancybox.css">
-    <script type="text/javascript">
-        if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
-            alert('朋友，上古浏览器不支持呢~');
-        }
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>听松阁移动音乐网</title>
+
+<link rel="stylesheet" href="css/style.css">
+
 </head>
-
 <body>
-    <div id="body-wrap">
-        <nav class="not_index_bg" id="nav" style="background-image:url(https://api.rryyz.com/api-pic/126.php)">
-            <div id="page_site-info">
-                <div id="site-title">
-                    <span class="blogtitle"></span>
-                    <script src="./static/js/typed.js"></script>
-                    <script>
-                        var typed = new Typed(".blogtitle", {
-                            strings: ['求知若饥，虚心若愚', 'Stay Hungry Stay Foolish'],
-                            startDelay: 300,
-                            typeSpeed: 100,
-                            loop: true,
-                            backSpeed: 50,
-                            showCursor: true
-                        });
-                    </script>
-                </div>
-            </div>
-        </nav>
-        <main id="content-outer">
-            <div class="layout_page" id="content-inner">
-                <div class="aside_content" id="aside_content">
-                    <div class="card-widget card-info">
-                        <div class="card-content">
-                            <div class="card-info-avatar is-center">
-                                <img class="avatar-img"
-                                    src="./static/img/20200125221102.png"
-                                    alt="avatar">
-                                <div class="author-info__name">听松阁</div>
-                                <div class="author-info__description">归来卧松云，微凉送晚风。 枕上听松语，槛外看潮生!</div>
-                            </div>
-                            <div class="card-info-social-icons is-center">
-                                <a class="social-icon" href="https://github.com/kylehao" target="_blank">
-                                    <i class="fa fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="card-widget card-announcement">
-                        <div class="card-content">
-                            <div class="item-headline">
-                                <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                <span>一言</span>
-                            </div>
-                            <div id="hitokoto"></div>
-                        </div>
-                    </div>
-                    <div class="card-widget card-announcement">
-                        <div class="card-content">
-                            <div class="item-headline">
-                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                <span>今日诗词</span>
-                            </div>
-                            <div id="jinrishici-sentence"></div>
-                        </div>
-                    </div>
+<section>
+	<div class="logo"><br>
+		<h2>听松阁</h2>
+		<p><br>欢迎访问听松阁精品音乐网，在线收听12个大类的2000+首经典歌曲，手机端打开体验更佳。<br><br><br></p>
+	</div>
+	<div class="logo">
+	    <table><tr><td width="360PX"></td></tr></table>
+	</div>
 
-                    <div class="card-widget card-webinfo">
-                        <div class="card-content">
-                            <div class="item-headline">
-                                <i class="fa fa-line-chart" aria-hidden="true"></i>
-                                <span>站点信息</span>
-                            </div>
-                            <div class="webinfo">
-                                <div class="webinfo-item">
-                                    <div class="webinfo-site-uv-name">本站访客数 :</div>
-                                    <div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div>
-                                </div>
-                                <div class="webinfo-item">
-                                    <div class="webinfo-site-name">本站总访问量 :</div>
-                                    <div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <article id="page">
-                    <div class="article-container">
-                        <h2>音乐</h2>
-                        <meting-js auto="https://y.qq.com/n/ryqq/playlist/9534428274.html">
-                        </meting-js>
-                        <hr>
+	<a href="china.html"><div class="card">
+		<div class="box">
+			<div class="imgBx">
+				<img src="images/china.jpg" alt="">
+			</div>
+			<div class="contentBx">
+				<div>
+					<h2>国语流行</h2>
+					<p><br>精选1200首国语经典流行音乐，慢慢的回忆杀。<br><br><br></p>
+				</div>
+			</div>
+		</div>
+	</div></a>
+	<a href="chun.html"><div class="card">
+		<div class="box">
+			<div class="imgBx">
+				<img src="images/chun.jpg" alt="">
+			</div>
+			<div class="contentBx">
+				<div>
+					<h2>纯音乐</h2>
+					<p><br>纯音乐，又称无标题音乐，是仅通过器乐形式表达情感的纯粹艺术形式。它摒弃歌词与叙事，仅凭音符的流动与结构的张力，唤醒听者内心最原始的共鸣。<br><br></p>
+				</div>
+			</div>
+		</div>
+	</div></a>
+	<a href="weimei.html"><div class="card">
+		<div class="box">
+			<div class="imgBx">
+				<img src="images/weimei.jpg" alt="">
+			</div>
+			<div class="contentBx">
+				<div>
+					<h2>唯美纯音乐</h2>
+					<p><br>唯美纯音乐，是摒弃歌词束缚、仅以旋律与和声编织情感的艺术形式。它如月光下的涓涓细流，不喧哗却能穿透心灵；似晨曦中的薄雾，不浓烈却氤氲着诗意。这种音乐不依赖语言，而是通过音符的起伏、节奏的律动，构建出一个超越文字的情感宇宙，让听者在寂静中听见内心的回响。<br></p>
+				</div>
+			</div>
+		</div>
+	</div></a>
+	<a href="korea.html"><div class="card">
+		<div class="box">
+			<div class="imgBx">
+				<img src="images/korea.jpg" alt="">
+			</div>
+			<div class="contentBx">
+				<div>
+					<h2>韩国音乐</h2>
+					<p><br>韩国流行音乐（K-POP）是源自韩国的流行音乐，在情绪上多是狂热、浮华，表现了年轻人的叛逆心理，歌曲节奏快且节奏感强烈，适于跳舞。<br><br></p>
+				</div>
+			</div>
+		</div>
+	</div></a>
+	<a href="usa.html"><div class="card">
+		<div class="box">
+			<div class="imgBx">
+				<img src="images/usa.jpg" alt="">
+			</div>
+			<div class="contentBx">
+				<div>
+					<h2>欧美音乐</h2>
+					<p><br>欧美音乐起源于19世纪末美国黑人的布鲁斯（Blues）音乐，这种以七声调式和三连音节奏为特征的音乐形式，成为爵士乐、摇滚乐等流派的根基，使摇滚乐成为全球主流音乐形式。<br><br></p>
+				</div>
+			</div>
+		</div>
+	</div></a>
+	<a href="japan.html"><div class="card">
+		<div class="box">
+			<div class="imgBx">
+				<img src="images/japan.jpg" alt="">
+			</div>
+			<div class="contentBx">
+				<div>
+					<h2>日本音乐</h2>
+					<p><br>日本流行音乐（J-POP）的源头可追溯至昭和初期的‌演歌‌与‌歌谣曲‌，引入的爵士乐、摇滚乐为其注入新血
+，1988年J-WAVE电台正式命名J-POP，取代歌谣曲成为主流体系。<br><br>
+</p>
+				</div>
+			</div>
+		</div>
+	</div></a>
+	
+	<a href="thailand.html"><div class="card">
+		<div class="box">
+			<div class="imgBx">
+				<img src="images/thailand.jpg" alt="">
+			</div>
+			<div class="contentBx">
+				<div>
+					<h2>泰国音乐</h2>
+					<p><br>泰国流行音乐（TPOP）的源头可追溯至‌素可泰时期‌的古典音乐，融合中国、印尼与印度音乐元素。20世纪80年代，生活音乐流派崛起，Carabao乐队以《泰国制造》等作品批判社会现实，奠定现代TPOP基础。<br>
+</p>
+				</div>
+			</div>
+		</div>
+	</div></a>
+	<a href="india.html"><div class="card">
+		<div class="box">
+			<div class="imgBx">
+				<img src="images/india.jpg" alt="">
+			</div>
+			<div class="contentBx">
+				<div>
+					<h2>印度音乐</h2>
+					<p><br>印度流行音乐植根于古典音乐传统，其旋律框架（拉格）与节奏循环（塔拉）构成核心基因
+。14世纪后，北印度音乐吸收伊斯兰文化形成世俗化风格，为流行音乐奠定基础。20世纪中叶，宝莱坞电影工业的崛起成为关键转折点，电影音乐将古典元素与流行节奏结合，催生出具有全球辨识度的印度流行乐。
+</p>
+				</div>
+			</div>
+		</div>
+	</div></a>
+	<a href="zhiyu.html"><div class="card">
+		<div class="box">
+			<div class="imgBx">
+				<img src="images/zhiyu.jpg" alt="">
+			</div>
+			<div class="contentBx">
+				<div>
+					<h2>治愈系舒缓音乐</h2>
+					<p><br>治愈系舒缓音乐以‌空灵旋律‌与‌舒缓节奏‌为核心，通过钢琴、小提琴、吉他等自然乐器的纯净音色，营造出如春日微风、林间溪流般的听觉场景。其节奏设计常借鉴摇篮曲的韵律，以不疾不徐的律动引导呼吸与心跳同步放缓，有效缓解现代生活中的焦虑与紧绷感。</p>
+				</div>
+			</div>
+		</div>
+	</div></a>
+	<a href="ziran.html"><div class="card">
+		<div class="box">
+			<div class="imgBx">
+				<img src="images/ziran.jpg" alt="">
+			</div>
+			<div class="contentBx">
+				<div>
+					<h2>自然之声</h2>
+					<p><br>自然之声是万物生灵与天地对话的独特语言，其形态丰富而深邃，不仅是听觉的盛宴，更是心灵的疗愈师；在快节奏的都市生活中，自然之声愈发珍贵；从森林到溪畔，从雨夜到黎明，自然之声无处不在。在喧嚣中驻足片刻，让心灵回归天地，方能听见生命最本真的回响。</p>
+				</div>
+			</div>
+		</div>
+	</div></a>
+	<a href="zhoushen.html"><div class="card">
+		<div class="box">
+			<div class="imgBx">
+				<img src="images/zhoushen.jpg" alt="">
+			</div>
+			<div class="contentBx">
+				<div>
+					<h2>周深</h2>
+					<p><br>周深的嗓音如自然馈赠的珍宝，空灵清澈中蕴含无尽力量。他以《大鱼》的深海低吟开启音乐之旅，将哀愁与希望化作声波，引领听众潜入神秘海底世界。<br><br><br></p>
+				</div>
+			</div>
+		</div>
+	</div></a>
+	<a href="yanglanyi.html"><div class="card">
+		<div class="box">
+			<div class="imgBx">
+				<img src="images/yanglanyi.jpg" alt="">
+			</div>
+			<div class="contentBx">
+				<div>
+					<h2>洋澜一</h2>
+					<p><br>洋澜一的嗓音如天籁垂落，兼具空灵特质与穿透力，在《谁》中将失恋者的无力挣扎具象化为声波震颤；于《天际》中，则化作缥缈的云絮，将爱意随风散入无垠苍穹。其音色清冷中蕴藏暖意，，以辨识度极高的声线赋予经典曲目新生。<br></p>
+				</div>
+			</div>
+		</div>
+	</div></a>
+</section>
 
-                        <h2>导航</h2>
-                        <div class="skillbox">
-						 
-                            <a href="index.html"><div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%); width: 75%">
-                                    <span>国语音乐</span>
-                                </div>
-                                <div class="skill-bar-percent">1056首</div>
-                            </div></a>
-                            <a href="us.html"><div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #9900FF 0%, #CC66FF 100%); width: 40%">
-                                    <span>欧美音乐</span>
-                                </div>
-                                <div class="skill-bar-percent">680首</div>
-                            </div></a>
-                            <a href="kr.html"><div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #2196F3 0%, #42A5F5 100%); width: 60%">
-                                    <span>韩国音乐</span>
-                                </div>
-                                <div class="skill-bar-percent">1320首</div>
-                            </div></a>
-                            <a href="jp.html"><div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #00BCD4 0%, #80DEEA 100%); width: 70%">
-                                    <span>日本音乐</span>
-                                </div>
-                                <div class="skill-bar-percent">1120首</div>
-                            </div></a>
-                            <a href="in.html"><div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #00BCD4 0%, #f54009 100%); width: 80%">
-                                    <span>印度音乐</span>
-                                </div>
-                                <div class="skill-bar-percent">1240首</div>
-                            </div></a>
-                            <a href="th.html"><div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #4CAF50 0%, #81C784 100%); width: 60%">
-                                    <span>泰国音乐</span>
-                                </div>
-                                <div class="skill-bar-percent">1120首</div>
-                            </div></a>
-                            <a href="hk.html"><div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #FFEB3B 0%, #FFF176 100%); width: 75%">
-                                    <span>粤语歌曲</span>
-                                </div>
-                                <div class="skill-bar-percent">840首</div>
-                            </div></a>
-                        </div>
-<!--
-                        <hr>
-                        <h2>刷题</h2>
-                        <div class="tool">
-                            <a href="https://leetcode-cn.com/problemset/all/" target="_blank">Leetcode</a><br>
-                            <a href="https://www.nowcoder.com/ta/coding-interviews" target="_blank">剑指 Offer</a>
-                        </div>
--->
-                        <hr>
-                        <h2>友情连接</h2>
-                        <div class="tool">
-                            <a href="http://free163.com/" target="_blank" rel="noopener noreferrer">听松阁</a>&nbsp;&nbsp;&nbsp;
-                            <a href="https://blog.yyymm.com/" target="_blank" rel="noopener noreferrer">导航</a>&nbsp;&nbsp;&nbsp;
-                            <a href="https://blog1.hhhnn.com/" target="_blank" rel="noopener noreferrer">blog</a>&nbsp;&nbsp;&nbsp;
-							<a href="https://111.gs/book/" target="_blank" rel="noopener noreferrer">诗词</a>&nbsp;&nbsp;&nbsp;
-							<a href="https://111.gs/musicshare/" target="_blank" rel="noopener noreferrer">音乐</a>&nbsp;&nbsp;&nbsp;
-							<a href="https://111.gs/photo/" target="_blank" rel="noopener noreferrer">相册</a>&nbsp;&nbsp;&nbsp;
-							<a href="https://111.gs/xjj/" target="_blank" rel="noopener noreferrer">抖音小姐姐</a>&nbsp;&nbsp;&nbsp;
-							<a href="https://mi.biz.ci" target="_blank" rel="noopener noreferrer">米表</a>&nbsp;&nbsp;&nbsp;
-							<a href="https://111.gs/index/" target="_blank" rel="noopener noreferrer">网址</a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </main>
-        <footer id="footer">
-            <div id="footer-wrap">
-                <div class="copyright">&copy;2019 - 2021 BY 听松阁</div>
-            </div>
-        </footer>
-    </div>
-    <script src="./static/js/jquery.min.js"></script>
-    <script src="./static/js/jquery.fancybox.js"></script>
-    <script async src="./static/js/busuanzi.pure.mini.js"></script>
-    <script src="./static/js/instantpage.js" type="module"></script>
-    <script src="./static/js/lazysizes.min.js" async></script>
-    <!-- aplayer、meting -->
-    <!-- require APlayer -->
-    <link rel="stylesheet" href="./static/css/APlayer.min.css">
-    <script src="./static/js/APlayer.min.js"></script>
-    <!-- require MetingJS -->
-    <script src="./static/js/Meting.min.js"></script>
-
-    <!-- nplayer -->
-    <script src="./static/js/index.min.js"></script>
-
-    <!--   一言、今日诗词   -->
-    <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-
-    <!-- 看板娘 -->
-    <link rel="stylesheet" href="./static/css/font-awesome2.min.css">
-    <script src="./static/js/autoload.js"></script>
-
-    <!--鼠标点击效果-->
-    <script src="./static/js/maodian.js"></script>
-
-    <script type="text/javascript">
-        console.clear();
-        console.log("%c 有朋自远方来, 不亦说乎.", "background:#24272A; color:#ffffff", "");
-        console.log("%c Github %c", "background:#24272A; color:#ffffff", "", "https://github.com/kylehao");
-        console.log("%c 版本号: %c", "background:#24272A; color:#ffffff", "", "1.0.0");
-
-
-        (function ($) {
-            $.fn.snow = function (options) {
-                var $flake = $('<div id="snowbox" />').css({ 'position': 'absolute', 'z-index': '9999', 'top': '-50px' }).html('&#10052;'),
-                    documentHeight = $(document).height(),
-                    documentWidth = $(document).width(),
-                    defaults = {
-                        minSize: 10,
-                        maxSize: 20,
-                        newOn: 1000,
-                        flakeColor: "#AFDAEF" /* 此处可以定义雪花颜色，若要白色可以改为#FFFFFF */
-                    },
-                    options = $.extend({}, defaults, options);
-                var interval = setInterval(function () {
-                    var startPositionLeft = Math.random() * documentWidth - 100,
-                        startOpacity = 0.5 + Math.random(),
-                        sizeFlake = options.minSize + Math.random() * options.maxSize,
-                        endPositionTop = documentHeight - 200,
-                        endPositionLeft = startPositionLeft - 500 + Math.random() * 500,
-                        durationFall = documentHeight * 10 + Math.random() * 5000;
-                    $flake.clone().appendTo('body').css({
-                        left: startPositionLeft,
-                        opacity: startOpacity,
-                        'font-size': sizeFlake,
-                        color: options.flakeColor
-                    }).animate({
-                        top: endPositionTop,
-                        left: endPositionLeft,
-                        opacity: 0.2
-                    }, durationFall, 'linear', function () {
-                        $(this).remove()
-                    });
-                }, options.newOn);
-            };
-        })(jQuery);
-        $(function () {
-            $.fn.snow({
-                minSize: 5, /* 定义雪花最小尺寸 */
-                maxSize: 50,/* 定义雪花最大尺寸 */
-                newOn: 800  /* 定义密集程度，数字越小越密集 */
-            });
-        });
-
-        // 浏览器搞笑标题
-        var OriginTitle = document.title;
-        var titleTime;
-        document.addEventListener('visibilitychange', function () {
-            if (document.hidden) {
-                // $('[rel="icon"]').attr('href', "/funny.ico");
-                document.title = '╭(°A°`)╮ 页面崩溃啦 ~';
-                clearTimeout(titleTime);
-            }
-            else {
-                $('[rel="icon"]').attr('href', "/favicon.ico");
-                document.title = '(ฅ>ω<*ฅ) 噫又好啦 ~' + OriginTitle;
-                titleTime = setTimeout(function () {
-                    document.title = OriginTitle;
-                }, 2000);
-            }
-        });
-    </script>
 </body>
-
 </html>
